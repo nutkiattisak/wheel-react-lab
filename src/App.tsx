@@ -1,11 +1,11 @@
-import './App.css'
-import WheelOfFortune from './components/WheelOfFortune'
+import { Fragment } from 'react'
+import WheelSpin from './components/WheelSpin'
 
 function App() {
   return (
-    <>
-      <WheelOfFortune />
-    </>
+    <Fragment>
+      <WheelSpin />
+    </Fragment>
   )
 }
 
